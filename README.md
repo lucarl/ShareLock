@@ -1,7 +1,5 @@
 # ShareLock
 
-#How to download
-
 ## Download
 
 Open terminal and type
