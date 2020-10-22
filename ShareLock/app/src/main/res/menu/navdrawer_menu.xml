@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_lock"
+        android:icon="@drawable/ic_baseline_lock_24"
+        android:title="Carl's lock" />
+    <item
+        android:id="@+id/add_lock"
+        android:icon="@drawable/ic_outline_lock_24"
+        android:title="Markus lock" />
+    <button>
+
+    </button>
+</menu>

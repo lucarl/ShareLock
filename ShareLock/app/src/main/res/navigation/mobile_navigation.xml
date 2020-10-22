@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_lock">
+
+    <fragment
+        android:id="@+id/navigation_lock"
+        android:name="com.example.sharelock.ui.Lock.LockFragment"
+        android:label="@string/title_lock"
+        tools:layout="@layout/fragment_lock" />
+
+    <fragment
+        android:id="@+id/navigation_map"
+        android:name="com.example.sharelock.ui.Map.MapFragment"
+        android:label="@string/title_map"
+        tools:layout="@layout/fragment_map" />
+
+    <fragment
+        android:id="@+id/navigation_friends"
+        android:name="com.example.sharelock.ui.Friends.FriendsFragment"
+        android:label="@string/title_friends"
+        tools:layout="@layout/fragment_friends" />
+    <fragment
+        android:id="@+id/add_lock"
+        android:name="com.example.sharelock.ui.Lock.AddLockFragment"
+        android:label="@string/add_lock"
+        tools:layout="@layout/add_lock" />
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.example.sharelock.ui.Map.MapsFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps" />
+</navigation>

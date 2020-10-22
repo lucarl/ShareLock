@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Share Lock</string>
+    <string name="title_map">Map</string>
+    <string name="title_lock">Carl\'s lock</string>
+    <string name="title_friends">Friends</string>
+    <string name="add_lock">Markus lock</string>
+</resources>

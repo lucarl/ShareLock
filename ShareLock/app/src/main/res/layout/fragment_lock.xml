@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.Lock.AddLockFragment">
+
+    <TextView
+        android:id="@+id/lock_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#718792"
+        android:textSize="20sp"
+        android:layout_marginTop="35dp"/>
+
+    <Button
+        android:id="@+id/lock_button"
+        android:layout_width="180dp"
+        android:layout_height="180dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="149dp"
+        android:layout_height="31dp"
+        android:src="@drawable/battery"
+        android:layout_marginBottom="15sp"
+        />
+    <TextView
+        android:id="@+id/alarm_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#718792"
+        android:textSize="10sp" />
+    <Button
+        android:id="@+id/alarm_button"
+        android:layout_width="93dp"
+        android:layout_height="93dp"
+        android:background="@drawable/alarm_button"/>
+
+    <Button
+        android:id="@+id/photo_connect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F9F9F9"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_marginBottom="50dp"
+/>
+
+</LinearLayout>
