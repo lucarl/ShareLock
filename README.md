@@ -1,5 +1,12 @@
 # ShareLock
 
 #How to download
-On terminal:
+
+## Download
+
+Open terminal
+
+```bash
 $ git clone https://github.com/lucarl/ShareLock.git
+```
+
