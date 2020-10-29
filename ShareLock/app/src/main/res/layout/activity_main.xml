@@ -48,7 +48,8 @@
                 android:layout_height="25dp"
                 android:layout_marginLeft="35dp"
                 android:layout_marginTop="290dp"
-                android:background="@drawable/add_lock_button" />
+                style="?android:attr/borderlessButtonStyle"
+                android:background="#00FF0000"/>
 
         </com.google.android.material.navigation.NavigationView>
 

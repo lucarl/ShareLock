@@ -7,11 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="567eac29-dfda-42fc-87b1-e7342744dee6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/sharelock/ui/Lock/LockFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sharelock/ui/Lock/LockFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/sharelock/ui/Map/MapsFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sharelock/ui/Map/MapsFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_lock.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_lock.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BikeScreen/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BikeScreen/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../BikeScreen/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BikeScreen/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../BikeScreen/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BikeScreen/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BikeScreen/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BikeScreen/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BikeScreen/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BikeScreen/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../BikeScreen/.idea/modules/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BikeScreen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BikeScreen/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +42,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1j6h3d4aIKMKgZSQiqSyzRvWzYW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -50,21 +52,22 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ResourceManagerPrefKey.ResourceType" value="DRAWABLE" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.207227179">
       <recent name="com.example.sharelock" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="com.example.sharelock.ui.Map" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
     </key>
   </component>
   <component name="RunManager">
@@ -145,10 +148,10 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="644" y="361" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1920.1057@0.23.1920.1057" timestamp="1603376830352" />
-    <state x="698" y="305" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603315376206">
+    <state x="698" y="305" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603730094799">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="698" y="305" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1603315376206" />
+    <state x="698" y="305" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1603730094799" />
     <state x="723" y="222" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1603214951586">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
@@ -161,10 +164,11 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="461" y="190" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1603216813571" />
-    <state x="612" y="308" width="695" height="486" key="find.popup" timestamp="1603315645452">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state x="408" y="233" width="695" height="486" key="find.popup" timestamp="1603813953856">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="612" y="308" width="695" height="486" key="find.popup/0.23.1920.1057@0.23.1920.1057" timestamp="1603315645452" />
+    <state x="408" y="233" width="695" height="486" key="find.popup/0.23.1280.777@0.23.1280.777" timestamp="1603813953856" />
+    <state x="612" y="308" width="695" height="486" key="find.popup/0.23.1920.1057@0.23.1920.1057" timestamp="1603734043752" />
     <state x="625" y="202" width="670" height="676" key="search.everywhere.popup" timestamp="1603216584243">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>

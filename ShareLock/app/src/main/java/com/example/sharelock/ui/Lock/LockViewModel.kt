@@ -39,7 +39,7 @@ class LockViewModel : ViewModel() {
         if (_alarmSwitch.value == true) {
             _alarmText.value = "Hold to turn on alarm"
         } else {
-            _alarmText.value = "Tap to turn off alarm"
+            _alarmText.value = "Hold to turn off alarm"
         }
         return _alarmText
     }

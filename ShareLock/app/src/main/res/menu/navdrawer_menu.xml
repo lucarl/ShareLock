@@ -8,6 +8,10 @@
         android:id="@+id/add_lock"
         android:icon="@drawable/ic_outline_lock_24"
         android:title="Markus lock" />
+    <item
+        android:id="@+id/add_lock1"
+        android:icon="@drawable/ic_baseline_add_circle_outline_24"
+        android:title="Add lock" />
     <button>
 
     </button>

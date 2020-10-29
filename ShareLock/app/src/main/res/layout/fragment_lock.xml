@@ -13,8 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#718792"
-        android:textSize="20sp"
-        android:layout_marginTop="35dp"/>
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/lock_button"
@@ -23,12 +22,13 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="149dp"
-        android:layout_height="31dp"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
         android:src="@drawable/battery"
-        android:layout_marginBottom="15sp"
+
         />
     <TextView
+        android:layout_marginTop="15sp"
         android:id="@+id/alarm_textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -36,8 +36,8 @@
         android:textSize="10sp" />
     <Button
         android:id="@+id/alarm_button"
-        android:layout_width="93dp"
-        android:layout_height="93dp"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
         android:background="@drawable/alarm_button"/>
 
     <Button
@@ -46,7 +46,6 @@
         android:layout_height="wrap_content"
         android:background="#F9F9F9"
         style="?android:attr/borderlessButtonStyle"
-        android:layout_marginBottom="50dp"
 />
 
 </LinearLayout>

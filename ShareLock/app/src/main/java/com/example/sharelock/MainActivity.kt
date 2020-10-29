@@ -1,6 +1,9 @@
 package com.example.sharelock
 
+import android.app.ActionBar
 import android.app.AlertDialog
+import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.widget.Button
 import com.google.android.material.bottomnavigation.BottomNavigationView
@@ -35,7 +38,6 @@ class MainActivity : AppCompatActivity() {
         NavigationUI.setupActionBarWithNavController(this, navController, drawerLayout)
         navView.setupWithNavController(navController)
         drawerView.setupWithNavController(navController)
-
         NavigationUI.setupWithNavController(navView, navController)
 
         drawer_button.setOnClickListener {

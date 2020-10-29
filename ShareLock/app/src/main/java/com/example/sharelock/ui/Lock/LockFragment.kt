@@ -4,6 +4,7 @@ import android.app.AlertDialog
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
+import android.view.View.OnLongClickListener
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.TextView
@@ -52,9 +53,9 @@ class LockFragment : Fragment() {
             lockViewModel.lock()
         }
 
-        lockViewModel.alarm()
-        alarmButton.setOnClickListener {
+        alarmButton.setOnLongClickListener {
             lockViewModel.alarm()
+            true
         }
 
         buttonPhoto.setOnClickListener {
@@ -66,10 +67,10 @@ class LockFragment : Fragment() {
             builder.setIcon(R.drawable.image_dialog)
 
             //performing positive action
-            builder.setPositiveButton("Accept"){dialogInterface, which ->
+            builder.setPositiveButton("Accept"){ dialogInterface, which ->
             }
             //performing cancel action
-            builder.setNeutralButton("Decline"){dialogInterface , which ->
+            builder.setNeutralButton("Decline"){ dialogInterface, which ->
             }
             // Create the AlertDialog
             val alertDialog: AlertDialog = builder.create()
